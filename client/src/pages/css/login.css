@@ -1,0 +1,65 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    animation: 1s fadeIn ease-out;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .loginForm:hover {
+    transform: scale(1.05);
+  }
+  
+  .loginForm h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .loginForm input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submitButton {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #007BFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .loginForm p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .loginForm p a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  

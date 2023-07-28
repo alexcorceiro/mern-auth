@@ -1,0 +1,46 @@
+.update-user-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .update-user-form, .update-password-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .update-user-label, .update-password-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .update-user-input, .update-password-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .update-user-submit, .update-password-submit {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+  }
+  
+  .update-user-submit:hover, .update-password-submit:hover {
+    background-color: #0056b3;
+  }
+  

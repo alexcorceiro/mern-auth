@@ -1,0 +1,83 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.registerForm h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #343a40;
+}
+
+.registerForm input {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.registerForm .submitButton {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background-color 0.5s;
+}
+
+.registerForm .submitButton:hover {
+  background-color: #0056b3;
+}
+
+.registerForm p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.registerForm a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.passwordPaper {
+  margin-top: 5px;
+}
+
+.passwordPaper h3 {
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+.passwordPaper ul {
+  list-style: none;
+  padding: 0;
+}
+
+.passwordPaper ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.passwordPaper ul li .MuiSvgIcon-root {
+  margin-right: 10px;
+}
